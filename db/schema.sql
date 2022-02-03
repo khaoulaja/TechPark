@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS tech_park_db;
+CREATE DATABASE tech_park_db;
