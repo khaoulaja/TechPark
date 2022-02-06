@@ -18,14 +18,14 @@ Post.init(
             allowNull: false
         },
         content:{
-            type: DataTypes.STRING,
+            type: DataTypes.STRING(1234),
             allowNull: false
         },
         user_id:{
             type: DataTypes.INTEGER,
             allowNull: false,
             references: {
-                model: 'user',
+                model: 'users',
                 key: 'id'
             }
         }
