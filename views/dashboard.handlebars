@@ -16,14 +16,14 @@
 {{#if posts.length}}
 <section>
   <h2>Your Posts</h2>
-  <ol>
+  <div class="container">
     {{#each posts as |post|}}
-    <li>
+    <div class="row m-2">
       {{> post-info post}}
       <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
-    </li>
+    </div>
     {{/each}}
-  </ol>
+  </div>
 </section>
 {{/if}}
 <script src="/javascript/add-post.js"></script>

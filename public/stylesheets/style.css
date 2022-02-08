@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: #EBEBEB;
+}
+header{
+    /* background: linear-gradient(#000000,#000000); */
+    /* position: absolute; */
+    background: #f7b801;
+    width: 100%;
+}
+.logo{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #EBEBEB;
+
+}
+.nav-link{
+    color: #EBEBEB;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #EBEBEB;
+}
+.logout-btn{
+    color: #EBEBEB;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.logout-btn:focus{
+    outline: none;
+}
+footer{
+    background-color: #f18701;
+    height: 60px;
+    color: #EBEBEB;
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+    min-height: 100vh;
+    padding: 60px;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #EBEBEB;
+}
+a:hover{
+    color: #EBEBEB;
+}
+.row>*{
+    padding: 0;
+}
+.card{
+    background-color: #7678ed;
+    border: none;
+}
+.card-header{
+    background-color: #3D348B;
+    border: none;
+}
+.card>*{
+    color: #EBEBEB;
+}
+.subtitle{
+    font-size: 15px;
+    float: right;
+}
