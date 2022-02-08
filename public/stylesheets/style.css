@@ -77,6 +77,13 @@ a:hover{
     font-size: 15px;
     float: right;
 }
+.edit-link{
+    background-color: #f7b801;
+    width: fit-content;
+    margin: 8px 0 15px;
+    padding: 5px 25px;
+    border-radius: 0.25rem;
+}
 .form-wrapper{
     padding: 30px;
     background-color: #7678ed;
