@@ -1,12 +1,15 @@
-<div class="comments">
+<div class="comments mt-4" id="comments">
+  {{#if this.length}}
+  <h4>Comments</h4>
+  {{/if}}
   {{#each this}}
-  <section class="comment">
-    <div class="meta">
-      {{user.username}} on {{format_date created_at}}
+  <div class="card comment w-50">
+    <div class="card-header">
+     <i class="fa-solid fa-circle-user me-1"></i> <b> {{user.username}}</b>   on {{format_date created_at}}
     </div>
-    <div class="text">
+    <div class="card-body text">
       {{comment_text}}
     </div>
-  </section>
+  </div>
   {{/each}}
 </div>

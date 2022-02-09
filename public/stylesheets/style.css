@@ -124,6 +124,25 @@ a:hover{
     color: #EBEBEB;
     transition: 0.5s;
 }
+.btn-warning, .btn-warning:hover{
+    border: 2px solid #f18701;
+    background-color: #f18701;
+    color: #EBEBEB;
+    transition: 0.5s;
+}
 textarea.form-control{
     min-height: calc(6.5em + 0.75rem + 2px);
+}
+.card.comment{
+    background-color: #dbdbfa;
+}
+.card.comment .card-header{
+    background-color: #7678ed;
+}
+.card.comment .card-body{
+    color: #000;
+}
+.go-back, .go-back:hover{
+    color: #3D348B;
+    font-weight: 500;
 }

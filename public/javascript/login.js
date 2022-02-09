@@ -39,7 +39,9 @@ async function loginFormHandler(event){
             headers: { 'Content-Type': 'application/json'}
         });
         if(response.ok){
-            document.location.replace('/dashboard')
+            username.value='';
+            password.value='';
+            document.location.replace('/login')
         }else {
             alert(response.statusText);
         }
