@@ -39,14 +39,14 @@ header{
 }
 footer{
     background-color: #f18701;
-    height: 60px;
+    min-height: 60px;
     color: #EBEBEB;
     text-align: center;
     padding: 20px;
 }
 
 main{
-    min-height: 100vh;
+    min-height: 80vh;
     padding: 60px;
 }
 button{
