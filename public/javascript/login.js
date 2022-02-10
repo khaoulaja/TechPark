@@ -18,7 +18,7 @@ async function signupFormHandler(event){
             password.value='';
             document.location.replace('/login');
         }else{
-            alert(response.statusText);
+            alert("Username used before OR password less than 6 characters!");
         }
     }
     
@@ -43,7 +43,7 @@ async function loginFormHandler(event){
         if(response.ok){
             document.location.replace('/dashboard')
         }else {
-            alert(response.statusText);
+            alert("Incorrect username or password!");
         }
     }
 }

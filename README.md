@@ -2,22 +2,17 @@
 
 ## Description
 
-- Game Corner is an application that allows the user to keep track of its collection of games. The user can sign up to start building their list of favorite games that they would like to play again, games that they hate and would never want to see again, or games that they want to buy and play later. <br />
+- Tech Park is CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. <br />
 
 ## User 
 
-- As a board game fanatic, I would like a place to keep track of my collection of games that I have played so that I can remember what games I've loved and hated
+- AS A developer who writes about tech I WANT a CMS-style blog site so that I can publish articles, blog posts, and my thoughts and opinions
 <br />
 
 ## Screenshot 
 
-![Homepage](public\images\screencapture-game-corner.png)
-<br />
-
-## Screencastify
-
-![Demo](demo.gif)
-<br />
+![Homepage](tech-park.png)
+<br/>
 
 ## Technologies 
 
@@ -29,12 +24,11 @@
 - Bcrypt
 - Bootstrap
 - Handlebars
-- Axios
 <br />
 
 ## Links
 
-Live Site - https://afternoon-reef-79835.herokuapp.com/
+Live Site - https://tech-park-99.herokuapp.com/
 <br />
 
 ## Contributions
