@@ -73,6 +73,9 @@ a:hover{
 .card>*{
     color: #EBEBEB;
 }
+.card-body p{
+    white-space: pre-line;
+}
 .subtitle{
     font-size: 15px;
     float: right;

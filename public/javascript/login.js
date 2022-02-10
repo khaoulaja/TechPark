@@ -14,7 +14,9 @@ async function signupFormHandler(event){
         });
         // check the response status
         if(response.ok){
-            console.log('success');
+            username.value='';
+            password.value='';
+            document.location.replace('/login');
         }else{
             alert(response.statusText);
         }
@@ -39,9 +41,7 @@ async function loginFormHandler(event){
             headers: { 'Content-Type': 'application/json'}
         });
         if(response.ok){
-            username.value='';
-            password.value='';
-            document.location.replace('/login')
+            document.location.replace('/dashboard')
         }else {
             alert(response.statusText);
         }
